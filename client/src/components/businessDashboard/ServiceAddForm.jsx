@@ -1,10 +1,10 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
-import InputField from "../form/InputField";
+import InputField from "../Form/InputField";
 import Button from "../Button";
-import CheckboxList from "../form/CheckboxList";
+import CheckboxList from "../Form/CheckboxList";
 import { useState, useEffect, useRef } from "react";
 import axios from "axios";
-import Dropdown from "../form/Dropdown";
+import Dropdown from "../Form/Dropdown";
 import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
 

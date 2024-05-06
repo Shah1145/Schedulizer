@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, Fragment } from "react";
-import InputField from "./form/InputField";
+import InputField from "./Form/InputField";
 import Layout from "./Layout";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
