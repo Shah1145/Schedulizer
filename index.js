@@ -10,7 +10,9 @@ import passport from "passport";
 import session from "express-session";
 
 dotenv.config();
-DbConnect("mongodb+srv://fisakhan0347:<mvAZ33LAMH8loCJw>@schedulizer.f23pdxq.mongodb.net/");
+DbConnect(
+  "mongodb+srv://fisakhan0347:<password>@schedulizer.f23pdxq.mongodb.net/?retryWrites=true&w=majority&appName=Schedulizer"
+);
 console.log("JWT_SECRET:", process.env.JWT_SECRET);
 const app = express();
 app.use(cors());
