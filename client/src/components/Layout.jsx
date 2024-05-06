@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Navbar from "./navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 import BackToTopButton from "./BackToTopButton";
 import SmoothScroll from "./SmoothScroll";
 
