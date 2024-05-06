@@ -1,5 +1,5 @@
 import ServiceCard from "./ServiceCard";
-import BackToTopButton from "./BackToTopButton";
+import BackToTopButton from "./BacktoTopButton";
 // import Ratings from "./Ratings";
 // import InputField from "./form/InputField";
 import Layout from "./Layout";
