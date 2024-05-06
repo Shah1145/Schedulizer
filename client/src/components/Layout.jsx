@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import Navbar from "./Navbar/Navbar";
-import BackToTopButton from "./BackToTopButton";
+import BackToTopButton from "./BacktoTopButton";
 import SmoothScroll from "./SmoothScroll";
 
 function Layout({ children }) {
