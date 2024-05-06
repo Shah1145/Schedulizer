@@ -10,7 +10,7 @@ import passport from "passport";
 import session from "express-session";
 
 dotenv.config();
-
+DbConnect("mongodb+srv://fisakhan0347:<mvAZ33LAMH8loCJw>@schedulizer.f23pdxq.mongodb.net/");
 console.log("JWT_SECRET:", process.env.JWT_SECRET);
 const app = express();
 app.use(cors());
@@ -26,7 +26,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-DbConnect("mongodb://127.0.0.1:27017/Schedulizer");
+
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
