@@ -1,7 +1,7 @@
 import Layout from "./Layout";
 import InputField from "./form/InputField";
 import { useEffect, useRef, useState } from "react";
-import TimeSlotSelectorButton from "./Form/TimeSlotSelectorButton";
+import TimeSlotSelectorButton from "./form/TimeSlotSelectorButton";
 import Button from "./Button";
 import moment from "moment";
 import axios from "axios";
@@ -9,7 +9,7 @@ import TransitionModal from "./TransitionModal";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import VanillaTilt from "./VanillaTilt";
-import DateSelector from "./Form/DateSelector";
+import DateSelector from "./form/DateSelector";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import ContentLoader from "react-content-loader";

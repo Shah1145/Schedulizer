@@ -1,4 +1,4 @@
-import TimeSlotSelectorButton from "./Form/TimeSlotSelectorButton";
+import TimeSlotSelectorButton from "./form/TimeSlotSelectorButton";
 import PropTypes from "prop-types";
 
 function Filters({ selectedFilters = [], setSelectedFilters, filterType }) {

@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Button from "./Button";
 import InputField from "./form/InputField";
-import Dropdown from "./Form/Dropdown";
+import Dropdown from "./form/Dropdown";
 import Layout from "./Layout";
 import { useSelector, useDispatch } from "react-redux";
 import { selectUserEmail } from "../redux/slices/userSlice";
