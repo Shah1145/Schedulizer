@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import Button from "./Button";
-import InputField from "./form/InputField";
+import InputField from "./form/InputField.jsx";
 import Layout from "./Layout";
 import axios from "axios";
 import { useState } from "react";
